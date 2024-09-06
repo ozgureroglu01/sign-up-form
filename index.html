@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <img src="./images/image.jpg" alt="work">
+    <div class="wrapper">
+        <section class="main">
+            <p>This is not a real online service! You know you need something like this in your life to help you realise
+                your
+                deepest dreams. Sign up now to get started.</p>
+            <p> You know you want to.</p>
+        </section>
+
+        <section class="form">
+            <p>Let's do this!</p>
+            <form action="./" method="post">
+                <div class="form_wrapper">
+                    <ul class="list_left">
+                        <li>
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" required>
+                        </li>
+
+                        <li>
+                            <label for="email">E-mail</label>
+                            <input type="email" name="user_mail" id="email" required>
+                        </li>
+
+                        <li>
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required minlength="6">
+                        </li>
+                    </ul>
+                    <ul class="list_right">
+                        <li>
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" required>
+                        </li>
+
+                        <li>
+                            <label for="phone_number">Phone Number</label>
+                            <input type="tel" name="user_phone" id="phone_number" required>
+                        </li>
+
+                        <li>
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" name="confirm_password" id="confirm_password" required minlength="6">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="submit_login">
+                    <button type="submit">Create Account</button>
+                    <p>İf you already have an account <a href="./">Log in</a>.</p>
+                </div>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
